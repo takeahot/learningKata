@@ -1,3 +1,10 @@
 .or {
     text-transform: uppercase;
 }
+.or > div {
+    display: inline-block;
+    height: 1px;
+    width: 108px;
+    color: rgba(175,175,175,1);
+
+}
