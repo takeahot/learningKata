@@ -20,15 +20,50 @@
             <p>There is no charge or obligation upon registration.</p>
         </header>   
         <section class="register">
+            <button class="fb_butt">
+                <img src="img/facebook.svg" alt="fb_icon" >
+                Register with Facebook
+            </button>
+            <button class="li_butt">
+                <img src="img/linkedin.svg" alt="li_icon">
+                Register with Linkedin         
+            </button>
         </section>
         <div class="or">
             <div></div>or <div></div>
         </div>
         <section class="contact">
-            
+            <div class="input">
+                <label for="e-mail">Email</label>
+                <input type='email' id='e-mail'>
+            </div>
+            <div class="input">
+                <label for="phone">Phone</label>
+                <input type="tel" id='phone'> 
+            </div>
         </section>
         <section class="type_of_investment"></section>
+        <h2>What type of investor are you?</h2>
+        <p>Select the type of investor you are below.</p>
         <section class="term"></section>
+        <div class="radio">
+            <input type="radio" name="type_of_investor" id="individual">
+            <label for="individual">
+                Individual <span>&#128712</span>
+            </label>
+            <input type="radio" name="type_of_investor" id="business">
+            <label for="business">
+                Business <span>&#128712</span>
+            </label>
+            <input type="radio" name="type_of_investor" id="ira">
+            <label for="ira">
+                IRA <span>&#128712</span>
+            </label>
+            <input type="radio" name="type_of_investor" id="trust">
+            <label for="trust">
+                Trust <span>&#128712</span>
+            </label>
+        </div>
         <section class="button"></section>
     </main>
 </body>
